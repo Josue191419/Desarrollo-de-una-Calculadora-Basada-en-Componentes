@@ -4,8 +4,7 @@ import org.example.model.CalculadoraModel;
 import org.example.view.CalculadoraView;
 
 /**
- * CONTROLADOR (Controller)
- * Responsabilidad: Unir el Modelo con la Vista.
+ * La Responsabilidad de esta es Unir el Modelo con la Vista.
  * Recibe las peticiones, llama a las funciones matemáticas y envía la salida a la Vista.
  */
 public class CalculadoraController {

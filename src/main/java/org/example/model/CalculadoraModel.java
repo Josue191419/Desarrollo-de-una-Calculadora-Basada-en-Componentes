@@ -1,23 +1,19 @@
 package org.example.model;
 
-/**
- * MODELO (Model)
- * Responsabilidad: Contener únicamente la lógica matemática.
- * No realiza impresiones en consola ni interactúa con el usuario.
- */
+
 public class CalculadoraModel {
 
-    // 1. Operación Básica: Suma
+    // 1. Esta es para las operaciónes de Suma
     public double sumar(double a, double b) {
         return a + b;
     }
 
-    // 2. Operación Básica: Resta
+    // 2. Operación para la Resta
     public double restar(double a, double b) {
         return a - b;
     }
 
-    // 3. Operación Básica: Multiplicación
+    // 3. Operación para la Multiplicación
     public double multiplicar(double a, double b) {
         return a * b;
     }
@@ -30,7 +26,7 @@ public class CalculadoraModel {
         return a / b;
     }
 
-    // 5. Operación Avanzada: Raíz Cuadrada (incluye validación de números negativos)
+    // 5.Esta es para operación es para la Raíz Cuadrada y tambien incluye validación de números negativos
     public double raizCuadrada(double numero) {
         if (numero < 0) {
             throw new ArithmeticException("No existe raíz cuadrada real para números negativos.");
@@ -38,7 +34,7 @@ public class CalculadoraModel {
         return Math.sqrt(numero);
     }
 
-    // 6. Operación Avanzada: Factorial
+    // 6. Operación para Factorial
     public long factorial(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("El factorial no está definido para números negativos.");
